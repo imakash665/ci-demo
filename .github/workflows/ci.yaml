@@ -43,7 +43,7 @@ jobs:
       - name: setup python
         uses: actions/setup-pythonv@v2
           with:
-            pthon-version: '3.9'
+            python-version: '3.9'
       - name: run unittest
         run: |
           python -m unittest discover
